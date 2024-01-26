@@ -1,0 +1,90 @@
+﻿@model Kriteria
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Tambah Kriteria";
+}
+
+<body>
+    <main>
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 mx-auto">
+                        
+                        <form method="post" class="custom-form mt-4 mb-lg-0 mb-5">
+                            <div class="row p-3 border">
+
+                                @if (Model.Id != 0)
+                                {
+                                    title = "Edit Kriteria";
+                                }
+
+                                <input type="hidden" asp-for="@Model.Id" />
+
+                                <div asp-validation-summary="ModelOnly"></div>
+
+                                <div class="col-12 border-bottom">
+                                    <h2 style="color:white">@title</h2>
+                                </div>
+                                <div class="col-12 pt-4">
+                                    <div class="form-group row">
+                                        <div class="col-4">
+                                            <label asp-for="Nama"></label>
+                                        </div>
+                                        <div class="col-8">
+                                            <input style="text-align:center"  asp-for="Nama" class="form-control" />
+                                            <span asp-validation-for="Nama" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row" style="padding-bottom:20px;">
+                                        <div class="col-4">
+                                            Type Kriteria
+                                        </div>
+                                        <div class="col-8">
+
+                                            <div class="form-group">
+                                                @Html.DropDownListFor(m => m.Type, new List<SelectListItem>
+                                                {
+                                                    new SelectListItem{Text="Tren Positif", Value = "Tren Positif"},
+                                                    new SelectListItem{Text="Tren Negatif", Value = "Tren Negatif"}
+
+                                                }, "Pilih Type", new { id = "cbProgram", @class = "btn form-select",@style= "background-color:var(--secondary-color); color:white" })
+
+                                                @Html.ValidationMessageFor(m => @Model.Type, "", new { @style = "color:red" })
+                                            </div>
+
+                                            @*<select asp-for="@Model.Type" asp-items="@Model.MerkList" class="form-select border-0 shadow">
+                                            <option disabled selected>--Select Category--</option>
+                                            </select>*@
+
+                                            @*@Html.DropDownListFor(x => x.Motor.NamaMotor, Model.ListMerk, "SELECT A CATEGORY",
+                                            new { @class = "form-control" })*@
+                                            @*<span asp-validation-for="Mode.Merk" class="text-danger"></span>*@
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <div class="col-8 offset-4">
+                                            @if (Model.Id != 0)
+                                            {
+                                                <partial name="_EditAndBackToListButton" model="Model.Id" />
+                                            }
+                                            else
+                                            {
+                                                <partial name="_CreateAndBackToListButton" />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>

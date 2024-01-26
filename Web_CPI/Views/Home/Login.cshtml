@@ -1,0 +1,56 @@
+﻿@model Pengguna
+
+@{
+    var title = "Halaman Login";
+}
+
+<body style="margin-top:100px">
+    <main>
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 mx-auto">
+
+                        <form method="post" class="custom-form mt-4 mb-lg-0 mb-5">
+                            <div class="row p-3 border">
+
+                                <div class="col-12 border-bottom">
+                                    <h2 style="color:white">@title</h2>
+                                </div>
+                                <div class="col-12 pt-4">
+                                    <div class="form-group row">
+                                        <div class="col-4">
+                                            <label asp-for="Username"></label>
+                                        </div>
+                                        <div class="col-8">
+                                            <input style="text-align:center" asp-for="Username" class="form-control" />
+                                            <span asp-validation-for="Username" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <div class="col-4">
+                                            <label asp-for="Password"></label>
+                                        </div>
+                                        <div class="col-8">
+                                            <input type="password" style="text-align:center" asp-for="Password" class="form-control" />
+                                            <span asp-validation-for="Password" class="text-danger"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <div class="col-8 offset-4">
+                                           <button type="submit" class="btn form-control" style="background-color: var(--primary-color)"> LOGIN</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>

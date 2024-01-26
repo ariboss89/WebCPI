@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{7AB853D7-5DD8-4E68-800C-60DD83AA02B8}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Web_CPI/Controllers/KeputusanController.cs">
+    <Files>
+      <File FileName="Web_CPI/wwwroot/js/penilaian.js" />
+      <File FileName="Web_CPI/Views/Penilaian/Upsert.cshtml" Line="16" Column="24" />
+      <File FileName="Web_CPI/ViewModel/HasilVM.cs" />
+      <File FileName="Web_CPI/ViewModel/PenilaianVM.cs" />
+      <File FileName="Web_CPI/Controllers/KeputusanController.cs" Line="183" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Web_CPI" expanded="True">
+            <Node name="Web_CPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="KeputusanController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Web__CPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

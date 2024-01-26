@@ -1,0 +1,198 @@
+﻿@model Web_CPI.ViewModel.HasilVM
+
+<style>
+    th {
+        color: white;
+    }
+</style>
+
+<br />
+
+<br />
+<section>
+    <main style="margin-top:100px">
+        <div class="row">
+            <div class="col-6">
+                <h2 style="color: var(--primary-color)">Hasil Perhitungan </h2>
+            </div>
+
+        </div>
+
+        <br />
+
+        <div id="divTableMatriks" class="p-4 border rounded" style="text-align:center;">
+            <table id="tblData" class="table table-bordered" style="width:100%; padding-top:10px;">
+                <thead>
+                    <tr style="background-color: var(--secondary-color)">
+                        <th class="text-center">Nama Kriteria</th>
+                        <th class="text-center">Type Kriteria</th>
+                        <th class="text-center">Bobot Kriteria</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var obj in Model.ListBobot)
+                    {
+                        <tr>
+                            <td>
+                                @obj.Nama
+                            </td>
+                            <td>
+                                @obj.Type
+                            </td>
+                            <td>
+                                @obj.Nilai
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="text-primary"> </h2>
+                </div>
+                <div class="col-6 text-end">
+                    <a onclick="show2('divTableRelatif')" class="btn" style="background-color: var(--secondary-color); color: white "> &nbsp; Hitung Nilai Trend <i class="bi bi-fast-forward-circle"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="divTableRelatif" class="p-4 border rounded" style="text-align:center;">
+            <table id="tblData" class="table table-bordered" style="width:100%; padding-top:10px;">
+                <thead>
+                    <tr style="background-color: var(--secondary-color)">
+                        <th class="text-center">Nama Alternatif</th>
+                        <th class="text-center">Nama Kriteria</th>
+                        <th class="text-center">Type Kriteria</th>
+                        <th class="text-center">Subkriteria</th>
+                        <th class="text-center">Nilai</th>
+                        <th class="text-center">Nilai Indeks Alternatif</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var obj in Model.ListTren)
+                    {
+                        <tr>
+                            <td>
+                                @obj.Alternatif
+                            </td>
+                            <td>
+                                @obj.Kriteria
+                            </td>
+                            <td>
+                                @obj.Type
+                            </td>
+                            <td>
+                                @obj.Subkriteria
+                            </td>
+                            <td>
+                                @obj.NilaiTrend
+                            </td>
+                            <td>
+                                @obj.NilaiIndeksAlt
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="text-primary"> </h2>
+                </div>
+                <div class="col-6 text-end">
+                    <a onclick="show3('divTablePi')" class="btn" style="background-color: var(--secondary-color); color: white "> &nbsp; Cek Hasil Akhir <i class="bi bi-fast-forward-circle"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="divTablePi" class="p-4 border rounded" style="text-align:center;">
+            <table id="tblData" class="table table-bordered" style="width:100%; padding-top:10px;">
+                <thead>
+                    <tr style="background-color: var(--secondary-color)">
+                        <th class="text-center">Nama Alternatif</th>
+                        <th class="text-center">Hasil Akhir</th>
+                        <th class="text-center">Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var obj in Model.ListHasil)
+                    {
+                        <tr>
+                            <td>
+                                @obj.Alternatif
+                            </td>
+                            <td>
+                                @obj.HasilAKhir
+                            </td>
+                            <td>
+                                @obj.Perankingan
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="text-primary"> </h2>
+                </div>
+                <div class="col-6 text-end">
+                    <a href="@Url.Action("Print", "Keputusan")" class="btn" style="background-color: var(--secondary-color); color: white "> &nbsp; Preview Hasil Akhir <i class="bi bi-fast-forward-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+</section>
+
+@section Scripts{
+
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>$(document).ready(function () {
+            document.getElementById('divTableMatriks').hidden = false;
+            document.getElementById('divTableRelatif').hidden = true;
+            document.getElementById('divTablePi').hidden = true;
+            document.getElementById('divTableHasil').hidden = true;
+
+        });
+
+        function show(param_div_id) {
+            document.getElementById('divTableMatriks').innerHTML = document.getElementById(param_div_id).innerHTML;
+            document.getElementById('divTable').hidden = true;
+            document.getElementById('divTableMatriks').hidden = false;
+        }
+
+        function show2(param_div_id) {
+            document.getElementById('divTableMatriks').innerHTML = document.getElementById(param_div_id).innerHTML;
+            //document.getElementById('divTable').hidden = true;
+            document.getElementById('divTableMatriks').hidden = true;
+            document.getElementById('divTableRelatif').hidden = false;
+        }
+
+        function show3(param_div_id) {
+            document.getElementById('divTableMatriks').innerHTML = document.getElementById(param_div_id).innerHTML;
+            //document.getElementById('divTable').hidden = true;
+            document.getElementById('divTableMatriks').hidden = true;
+            document.getElementById('divTableRelatif').hidden = true;
+            document.getElementById('divTablePi').hidden = false;
+        }
+
+        function show4(param_div_id) {
+            document.getElementById('divTableMatriks').innerHTML = document.getElementById(param_div_id).innerHTML;
+            //document.getElementById('divTable').hidden = true;
+            document.getElementById('divTableMatriks').hidden = true;
+            document.getElementById('divTableRelatif').hidden = true;
+            document.getElementById('divTablePi').hidden = true;
+            document.getElementById('divTableHasil').hidden = false;
+        }</script>
+}

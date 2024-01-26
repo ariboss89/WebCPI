@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web_CPI
+build_property.RootNamespace = Web_CPI
+build_property.ProjectDir = /Users/ariramadhan/Projects/Web_CPI/Web_CPI/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /Users/ariramadhan/Projects/Web_CPI/Web_CPI
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Alternatif/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWx0ZXJuYXRpZi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Alternatif/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWx0ZXJuYXRpZi9VcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Keputusan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2VwdXR1c2FuL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Keputusan/Perhitungan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2VwdXR1c2FuL1BlcmhpdHVuZ2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Keputusan/Print.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS2VwdXR1c2FuL1ByaW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Kriteria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3JpdGVyaWEvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Kriteria/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvS3JpdGVyaWEvVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Penilaian/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVuaWxhaWFuL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Penilaian/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVuaWxhaWFuL1Vwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Shared/_CreateAndBackToListButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DcmVhdGVBbmRCYWNrVG9MaXN0QnV0dG9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Shared/_EditAndBackToListButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19FZGl0QW5kQmFja1RvTGlzdEJ1dHRvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Subkriteria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3Via3JpdGVyaWEvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Subkriteria/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3Via3JpdGVyaWEvVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ariramadhan/Projects/Web_CPI/Web_CPI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5938ej5v5a

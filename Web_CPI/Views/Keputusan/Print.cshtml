@@ -1,0 +1,94 @@
+﻿@model List<Hasil>
+
+    <section>
+        <main style="margin-top:100px">
+
+            <div class="row p-3 border" id="hasilSimulasi">
+
+                <div class="col-lg-12">
+                    <h3 style="text-align:center">LAPORAN HASIL PENGAMBILAN KEPUTUSAN</h3>
+                    <h3 style="text-align:center">TOKO ISNA LOBAM </h3>
+                </div>
+            </div>
+
+            <div class="row p-3 border" id="hasilSimulasi">
+                <div class="row">
+                    <div class="row">
+
+                        <h3 class="text-center">Hasil Akhir Pengambilan Keputusan </h3>
+
+                    </div>
+
+                    <br />
+
+                    <div class="p-4 border rounded" style="text-align:center;">
+                        <table id="tblData" class="table table-bordered" style=";width:100%; padding-top:10px;">
+                            <thead>
+                                <tr style="background-color: var(--primary-color);color:white">
+                                    <th class="text-center">Nama Alternatif</th>
+                                    <th class="text-center">Hasil Akhir</th>
+                                    <th class="text-center">Keterangan</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var obj in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @obj.Alternatif
+                                        </td>
+                                        <td>
+                                            @obj.HasilAKhir
+                                        </td>
+                                        <td>
+                                            @obj.Perankingan
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <div style="display:flex">
+                        <div class="col-4">
+
+                        </div>
+                        <div class="col-4">
+
+                        </div>
+                        <div class="col-4">
+                            <h4 style="text-align:center; margin-top:30px"> Mengetahui</h4>
+                            <br><br><br><br />
+                            <h4 style="text-align:center"> Pemilik</h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="divCetak" class="row p-3 border" style="text-align:center; margin-bottom:30px">
+                <button id="btnPrint" onclick="Print()" class="btn form-control" style="background-color: var(--primary-color); color:white" asp-route="Print">Cetak Hasil Keputusan</button>
+            </div>
+
+        </main>
+    </section>
+
+    <script>function Print() {
+
+            document.getElementById('divCetak').hidden = true;
+
+            document.getElementById('navMenu').hidden = true;
+
+            document.getElementById('navFooter').hidden = true;
+
+            window.print();
+
+            document.getElementById('divCetak').hidden = false;
+
+            document.getElementById('navMenu').hidden = false;
+
+            document.getElementById('navFooter').hidden = false;
+
+        }</script>

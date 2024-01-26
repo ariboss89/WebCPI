@@ -1,0 +1,119 @@
+﻿@model Web_CPI.ViewModel.PenilaianVM
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Tambah Penilaian";
+}
+
+<body>
+    <main>
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 mx-auto">
+
+                        <form method="post" class="custom-form mt-4 mb-lg-0 mb-5">
+                            <div class="row p-3 border">
+
+                                @if (Model.Penilaian.Id != 0)
+                                {
+                                    title = "Edit Penilaian";
+                                }
+
+                                <input type="hidden" asp-for="@Model.Penilaian.Id" />
+
+                                <div asp-validation-summary="ModelOnly"></div>
+
+                                <div class="col-12 border-bottom">
+                                    <h2 style="color:white">@title</h2>
+                                </div>
+
+
+                                <div class="form-group row" style=" padding-top:20px">
+                                    <div class="col-4">
+                                        Nama Kriteria
+                                    </div>
+                                    <div class="col-8">
+
+                                        <select style="text-align: center; background-color: var(--secondary-color); color: white" asp-for="@Model.Penilaian.Alternatif" asp-items="@Model.ListAlternatif" class="form-select border-0 shadow">
+                                            <option disabled selected>Pilih Alternatif</option>
+                                        </select>
+
+                                        <span asp-validation-for="Penilaian.Alternatif" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row" style="padding-bottom:20px; padding-top:20px">
+                                    <div class="col-4">
+                                        Nama Kriteria
+                                    </div>
+                                    <div class="col-8">
+
+                                        <select id="cbKriteria" style="text-align: center; background-color: var(--secondary-color); color: white" asp-for="@Model.Penilaian.Kriteria" asp-items="@Model.ListKriteria" class="form-select border-0 shadow" onchange="Search()">
+                                            <option disabled selected>Pilih Kriteria</option>
+                                        </select>
+
+                                        <span asp-validation-for="Penilaian.Kriteria" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-4">
+                                        <label asp-for="Penilaian.Type"></label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input id="txtJenis" readonly style="text-align:center" asp-for="Penilaian.Type " class="form-control" />
+                                        <span asp-validation-for="Penilaian.Type" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row" style="padding-bottom:20px;">
+                                    <div class="col-4">
+                                        Nama Subkriteria
+                                    </div>
+                                    <div class="col-8">
+
+                                        <select id="cbSubKriteria" style="text-align: center; background-color: var(--secondary-color); color: white" asp-for="@Model.Penilaian.Subkriteria" asp-items="@Model.ListSubKriteria" class="form-select border-0 shadow" onchange="Search2()">
+                                            <option disabled selected>Pilih SubKriteria</option>
+                                        </select>
+
+                                        <span asp-validation-for="Penilaian.Subkriteria" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-4">
+                                        <label asp-for="Penilaian.Nilai"></label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input id="txtNilai" readonly style="text-align:center" asp-for="Penilaian.Nilai " class="form-control" />
+                                        <span asp-validation-for="Penilaian.Nilai" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-8 offset-4">
+                                        @if (Model.Penilaian.Id != 0)
+                                        {
+                                            <partial name="_EditAndBackToListButton" model="Model.Penilaian.Id" />
+                                        }
+                                        else
+                                        {
+                                            <partial name="_CreateAndBackToListButton" />
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+@section Scripts{
+    <script src="~/js/penilaian.js"></script>
+}

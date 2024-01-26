@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/obj/Debug/net7.0/scopedcss/projectbundle/Web_CPI.bundle.scp.css",
+      "PackagePath": "staticwebassets/Web_CPI.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/css/bootstrap-icons.css",
+      "PackagePath": "staticwebassets/css/bootstrap-icons.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/css/templatemo-topic-listing.css",
+      "PackagePath": "staticwebassets/css/templatemo-topic-listing.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/fonts/bootstrap-icons.woff",
+      "PackagePath": "staticwebassets/fonts/bootstrap-icons.woff"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/fonts/bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets/fonts/bootstrap-icons.woff2"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/businesswoman-using-tablet-analysis.jpg",
+      "PackagePath": "staticwebassets/images/businesswoman-using-tablet-analysis.jpg"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/colleagues-working-cozy-office-medium-shot.jpg",
+      "PackagePath": "staticwebassets/images/colleagues-working-cozy-office-medium-shot.jpg"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/faq_graphic.jpg",
+      "PackagePath": "staticwebassets/images/faq_graphic.jpg"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/rear-view-young-college-student.jpg",
+      "PackagePath": "staticwebassets/images/rear-view-young-college-student.jpg"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/colleagues-working-cozy-office-medium-shot.png",
+      "PackagePath": "staticwebassets/images/topics/colleagues-working-cozy-office-medium-shot.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_Compose_music_re_wpiw.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_Compose_music_re_wpiw.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_Educator_re_ju47.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_Educator_re_ju47.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_Finance_re_gnv2.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_Finance_re_gnv2.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_Graduation_re_gthn.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_Graduation_re_gthn.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_Group_video_re_btu7.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_Group_video_re_btu7.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_Podcast_audience_re_4i5q.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_Podcast_audience_re_4i5q.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_Redesign_feedback_re_jvm0.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_Redesign_feedback_re_jvm0.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_Remote_design_team_re_urdx.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_Remote_design_team_re_urdx.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_happy_music_g6wc.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_happy_music_g6wc.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_online_ad_re_ol62.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_online_ad_re_ol62.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/images/topics/undraw_viral_tweet_gndb.png",
+      "PackagePath": "staticwebassets/images/topics/undraw_viral_tweet_gndb.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/.DS_Store",
+      "PackagePath": "staticwebassets/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/alternatif.js",
+      "PackagePath": "staticwebassets/js/alternatif.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/click-scroll.js",
+      "PackagePath": "staticwebassets/js/click-scroll.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/custom.js",
+      "PackagePath": "staticwebassets/js/custom.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/jquery.min.js",
+      "PackagePath": "staticwebassets/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/jquery.sticky.js",
+      "PackagePath": "staticwebassets/js/jquery.sticky.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/keputusan.js",
+      "PackagePath": "staticwebassets/js/keputusan.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/kriteria.js",
+      "PackagePath": "staticwebassets/js/kriteria.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/penilaian.js",
+      "PackagePath": "staticwebassets/js/penilaian.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/js/subkriteria.js",
+      "PackagePath": "staticwebassets/js/subkriteria.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/.DS_Store",
+      "PackagePath": "staticwebassets/lib/bootstrap/.DS_Store"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/.DS_Store",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/.DS_Store"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/Web_CPI/Web_CPI/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Web_CPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Web_CPI.props",
+      "PackagePath": "build\\Web_CPI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Web_CPI.props",
+      "PackagePath": "buildMultiTargeting\\Web_CPI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Web_CPI.props",
+      "PackagePath": "buildTransitive\\Web_CPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

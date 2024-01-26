@@ -1,0 +1,11 @@
+﻿@model int
+
+<div class="row">
+
+    <div class="col">
+        <input type="submit" value="Edit" style="color: white; background-color: var(--primary-color)" class="btn form-control" asp-route-id="@Model" />
+    </div>
+    <div class="col">
+        <a asp-action="Index" style="font-weight:bold; color:white; background-color:var(--primary-color)" class="btn btn-success form-control"> Back to List</a>
+    </div>
+</div>
