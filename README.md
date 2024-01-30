@@ -1,9 +1,11 @@
 #How to Install
 
-Clone this repository
-Open it using Visual Studio
-Create Database in SQL Server
-Write dotnet ef database update on terminal
+1. Clone this repository
+2. Open it using Visual Studio
+3. Create Database in SQL Server
+4. Write dotnet ef database update on terminal
+
+=============================================================================================================================
 
 AppScreenShot:
 Menu Login
